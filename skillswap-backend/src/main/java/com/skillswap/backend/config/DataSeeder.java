@@ -9,6 +9,8 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class DataSeeder {
 
+    // Disabled for now - using data.sql instead
+    /*
     @Bean
     CommandLineRunner initDatabase(SkillRepo skillRepository) {
         return args -> {
@@ -24,4 +26,5 @@ public class DataSeeder {
             }
         };
     }
+    */
 }
